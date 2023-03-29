@@ -28,6 +28,11 @@ page 50115 EmployeePage
                     ApplicationArea = All;
                     
                 }
+                
+            }
+            group("OtherInformation")
+            {
+               
                 field(Date_of_Join; Rec. Date_of_Join)
                 {
                     ApplicationArea = All;
@@ -51,13 +56,13 @@ page 50115 EmployeePage
     {
         area(Processing)
         {
-            action(ActionName)
+            action(Test)
             {
                 ApplicationArea = All;
                 
                 trigger OnAction()
                 begin
-                    
+                    Message('Data saved in the table.')
                 end;
             }
         }
