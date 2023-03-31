@@ -9,12 +9,13 @@
             "server": "http://localhost",
             "serverInstance": "BC200",
             "authentication": "Windows", 
-            "startupObjectId": 22,
-            "startupObjectType": "Page",
+            "startupObjectId": 50106,
+            "startupObjectType": "Query",
             "breakOnError": "All",
             "launchBrowser": true,
             "enableLongRunningSqlStatements": true,
             "enableSqlInformationDebugger": true,
+            "schemaUpdateMode": "Recreate",
             "tenant": "default"
         }
     ]

@@ -9,6 +9,8 @@ codeunit 50101 MyFirstCodeunit
     end;
 
      procedure add(num1: Integer; num2: Integer)
+
+     // Don't want to be a global variable
     var
         tot: Integer;
     begin
